@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PONG</h1>
+        <div class="scoreboard">
+            <div class="score-item">
+                <span class="label">Player</span>
+                <span class="score" id="playerScore">0</span>
+            </div>
+            <div class="score-item">
+                <span class="label">Computer</span>
+                <span class="score" id="computerScore">0</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="controls">
+            <p><strong>Player Controls:</strong> Mouse Y or Arrow Keys (Up/Down)</p>
+            <p><strong>Goal:</strong> Score 11 points to win!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
